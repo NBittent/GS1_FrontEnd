@@ -1,0 +1,23 @@
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --muted:#666;
+  --accent:#2b6cb0;
+  --radius:12px;
+  --maxwidth:1100px;
+  --gap:1.25rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:#111;
+}
+
+.container{
+  max-width:var(--maxwidth);
+  margin:0 auto;
+  padding:2rem;
+}
