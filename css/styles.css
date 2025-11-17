@@ -99,3 +99,14 @@ body{
   border-radius:12px;
   object-fit:cover;
 }
+.quiz-form{
+  background:#fff;
+  padding:1rem;
+  border-radius:var(--radius);
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.quiz-form fieldset{
+  border:0;
+  margin-bottom:1rem;
+}
