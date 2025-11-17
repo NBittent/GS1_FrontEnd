@@ -21,3 +21,36 @@ body{
   margin:0 auto;
   padding:2rem;
 }
+
+.site-header{
+  background:#fff;
+  padding:1rem 0;
+  box-shadow:0 1px 6px rgba(0,0,0,0.05);
+}
+
+.header-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.nav-list{
+  list-style:none;
+  display:flex;
+  gap:1rem;
+}
+
+.nav-list a{
+  text-decoration:none;
+  color:var(--muted);
+}
+
+.hero{
+  padding:3rem 0;
+  background:linear-gradient(90deg,#eaf4ff,transparent);
+}
+
+.hero-inner h2{
+  margin:0;
+  font-size:2rem;
+}
