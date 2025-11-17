@@ -79,3 +79,23 @@ body{
   color:var(--muted);
   font-size:.9rem;
 }
+
+.profile-detail{
+  background:#fff;
+  padding:1rem;
+  border-radius:var(--radius);
+  margin:1rem 0;
+  box-shadow:0 4px 14px rgba(0,0,0,0.06);
+}
+
+.detail-inner{
+  display:flex;
+  gap:1rem;
+}
+
+.detail-avatar{
+  width:120px;
+  height:120px;
+  border-radius:12px;
+  object-fit:cover;
+}
